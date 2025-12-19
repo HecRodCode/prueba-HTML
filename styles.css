@@ -1,0 +1,457 @@
+@import url(./css/global.css);
+
+/* Local fonts*/
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter SemiBold";
+    src: url("./fonts/Inter_24pt-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url("./fonts/Inter_18pt-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    src: url("./fonts/Inter_28pt-Bold.ttf") format("truetype");
+}
+
+.hero-section {
+    background-color: rgba(245, 247, 250, 1);
+    padding: 110px 0;
+
+    width: 100%;
+    height: 400px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-group {
+    margin-left: 150px;
+}
+
+.main-title {
+    font-family: "Inter SemiBold", sans-serif;
+    font-size: 74px;
+    font-weight: 600;
+
+    color: rgba(0, 0, 0, 1);
+
+    margin-bottom: 40px;
+}
+
+.style-word {
+    color: rgba(76, 175, 79, 1);
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: rgba(113, 113, 113, 1);
+
+    margin-bottom: 45px;
+}
+
+.register-button {
+    background-color: rgba(76, 175, 79, 1);
+    color: rgba(245, 247, 250, 1);
+    padding: 14px 32px;
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    width: 128px;
+    height: 52px; 
+    text-align: center; 
+
+    transition: transform 0.25s ease;
+}
+
+.register-button:hover {
+    transform: translateY(-4px) scale(1.01);
+}
+
+.hero-imagen img {
+    height: 45%;
+    width: auto;
+
+    position: absolute;
+    right: 290px;
+}
+
+.buttons-option {
+    width: 46px;
+    height: 10px;
+
+    position: absolute;
+    right: 900px;
+    bottom: 270px;
+}
+
+
+.client-section {
+    width: 100%;
+}
+
+.client-content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 0;
+}
+
+.text-client {
+    margin: 0 auto;
+}
+
+.client-title {
+    font-family: "Inter SemiBold", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+
+    color: rgba(77, 77, 77, 1);
+    text-align: center;
+}
+
+.description-client {
+    font-family: "Inter Regular";
+    font-size: 14px;
+    font-weight: 400;
+    
+    color: rgba(113, 113, 113, 1);
+
+    margin-bottom: 50px;
+}
+
+.brands {
+    display: flex;
+    margin: 0 auto;
+    gap: 190px;
+}
+
+.brands img {
+    width: 48px;
+    height: 48px;
+}
+
+.benefits-section {
+    width: 100%;
+}
+
+.benefits-title {
+    font-family: "Inter SemiBold",  sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+
+    color: rgba(77, 77, 77, 1);
+
+    text-align: center;
+}
+
+.benefits-description {
+    font-family: "Inter Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: rgba(113, 113, 113, 1);
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.benefits-container {
+    display: flex;
+
+    justify-content: center;
+    gap: 280px;
+}
+
+.benefits-card {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.benefits-card img {
+    width: 65px;
+    height: 56px;
+}
+
+.benefits-card h2 {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+
+    color: rgba(77, 77, 77, 1);
+
+    text-align: center;
+}
+
+.benefits-card p {
+    font-family: "Inter Regular";
+    font-size: 14px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.pixelgrade-content {
+    display: flex;
+
+    justify-content: center;
+    padding: 40px 40px;
+
+    gap: 150px;
+}
+
+
+.text-group-pixelgrade {
+    width: 600px;
+    text-align: left;
+}
+
+.main-title-pixelgrade {
+    font-family: "Inter SemiBold";
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.description-pixelgrade {
+    font-family: "Inter Regular";
+    font-size: 14px;
+    font-weight: 400;
+
+    color: rgba(113, 113, 113, 1);
+
+    margin-bottom: 50px;
+}
+
+.learn-button {
+    background-color: rgba(76, 175, 79, 1);
+    color: rgba(245, 247, 250, 1);
+    padding: 14px 32px;
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    width: 128px;
+    height: 52px; 
+    text-align: center; 
+
+    transition: transform 0.25s ease;
+}
+
+.learn-button:hover {
+    transform: translateY(-4px) scale(1.01);
+}
+
+.business-content {
+    display: flex;
+    background-color: rgba(245, 247, 250, 1);
+
+    justify-content: center;
+    gap: 300px;
+
+    padding: 80px 0;
+}
+
+.business-title {
+    font-family: "Inter SemiBold";
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.business-description {
+    font-family: "Inter Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.unlock-content {
+    display: flex;
+
+    justify-content: center;
+    padding: 40px 40px;
+
+    gap: 150px;
+}
+
+.text-group-unlock {
+    width: 600px;
+    text-align: left;
+}
+
+.main-title-unlock {
+    font-family: "Inter SemiBold";
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.description-unlock {
+    font-family: "Inter Regular";
+    font-size: 14px;
+    font-weight: 400;
+
+    color: rgba(113, 113, 113, 1);
+
+    margin-bottom: 50px;
+}
+
+.learn-button {
+    background-color: rgba(76, 175, 79, 1);
+    color: rgba(245, 247, 250, 1);
+    padding: 14px 32px;
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    width: 128px;
+    height: 52px; 
+    text-align: center; 
+}
+
+/* MONITOR */
+@media screen and (max-width: 1023px) {
+    .main-header {
+        padding: 20px 40px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-group {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .main-title {
+        font-size: 48px;
+    }
+
+    .hero-imagen img {
+        position: static;
+        height: auto;
+        width: 80%;
+    }
+
+    .brands {
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-container, 
+    .pixelgrade-content, 
+    .unlock-content, 
+    .business-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .text-group-pixelgrade, 
+    .text-group-unlock {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 40px;
+    }
+
+    .logo-footer, .branding-text, .social-icons {
+        margin-left: 0;
+    }
+}
+
+/* MÓVIL */
+@media screen and (max-width: 480px) {
+    .main-header {
+        padding: 15px 20px;
+    }
+
+    .container-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    .main-nav a {
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .login {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .brands img {
+        width: 40px;
+    }
+
+    .counts-img {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+    }
+
+    .buttons-option {
+        display: none;
+    }
+
+    .newsletter-form input {
+    width: 50%;
+}
+}
