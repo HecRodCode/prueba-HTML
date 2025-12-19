@@ -1,11 +1,11 @@
-**Personal information
+## Personal information
 
 - Name: Hector Hernan Rios Rodriguez 
 - clan: Turing PM
 - Mail: riosrodriguezhectorhernan59@gmail.com
 - C.C 1034919106
 
-**Instructions for viewing and cloning the project
+## Instructions for viewing and cloning the project
 
 1. Go to the repository on GitHub and click the "<> Code" button.
 
